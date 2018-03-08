@@ -69,4 +69,7 @@ Structure
 */
 #container{ margin: 300px 0px;}
 #content{ text-align:center; width:300px; margin:100px auto; }
+form{ width:250px; margin:0 auto; }
+input, button, label{ display: block; width: 99%; margin: 0.3em 0 1em;}
+button{ padding: 0.5em;}
 
