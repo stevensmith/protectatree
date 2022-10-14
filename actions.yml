@@ -1,0 +1,7 @@
+name: 'Test'
+description: 'Test build'
+author: 'Test build'
+
+runs: 
+  using: 'node16'
+  main: 'scripts/build.js'
