@@ -1,1 +1,1 @@
-# protectatree
+# protect a tree
