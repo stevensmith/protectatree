@@ -2,11 +2,11 @@ name: Test
 
 on:
     pull_request:
-        types: [opened]
+        types: [opened, edited]
 
 jobs:
     test:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - uses: ./
+            - run: npm ci
